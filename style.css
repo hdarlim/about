@@ -4,4 +4,8 @@ html {
     color: rgb(224, 224, 224);
     margin: 0;
     padding: 0;
+    font-size: 16px;
+}
+main {
+    display: flex;
 }
