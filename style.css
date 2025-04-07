@@ -108,6 +108,15 @@ body {
     padding: 1%
 }
 
+a {
+    color: #e0e0e0;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+    color: #0a0a0a;
+}
+
 @media screen and (max-width: 1079px), screen and (max-height: 719px) {
     body {
       display: flex;
