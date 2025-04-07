@@ -20,7 +20,7 @@ body {
 
 .main {
     min-height: 95%;
-    background-color: rgb(58, 58, 22);
+    /*background-color: rgb(58, 58, 22);*/
     margin: 0;
     display: flex;
     /* 
@@ -40,14 +40,14 @@ body {
 }
 
 .item.a {
-    background-color: blue;
+    /*background-color: blue;*/
     padding: 1% 1% 1%;
-    width: 30%;
+    width: 20%;
 }
 
 .name {
     font-size: 160%;
-    background-color: rgb(131, 44, 44);
+    /*background-color: rgb(131, 44, 44);*/
     margin: 1% auto;
     padding: 1%;
     width: 75%;
@@ -55,7 +55,7 @@ body {
 }
 
 .bio {
-    background-color: rgb(187, 99, 17);
+    /*background-color: rgb(187, 99, 17);*/
     margin: 1% auto;
     padding: 1%;
     width: 75%;
@@ -64,21 +64,21 @@ body {
 
 .item.b {
     border-left: 3px solid var(--white);
-    min-height: 50vh;
+    min-height: 25vh;
     margin: 0 1.5%;
     padding-right: 1%;
 }
 
 .item.c {
-    background-color: green;
-    margin: 5% 0;
+    /*background-color: green;*/
+    margin: 5%;
     width: 70%;
 }
 
 .project-name {
     margin: 2% auto;
     padding: 0 1%;
-    background-color: chocolate;
+    /*background-color: chocolate;*/
     font-size: 140%;
     text-align: center;
     width: 40%
@@ -97,13 +97,13 @@ body {
 .description {
     margin: 1% auto;
     padding: 0 1%;
-    background-color: rgb(16, 53, 40);
+    /*background-color: rgb(16, 53, 40);*/
     width: 35%;
     text-align: center;
 }
 
 .item.d {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     margin: 1%;
     padding: 1%
 }
