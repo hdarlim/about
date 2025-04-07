@@ -50,12 +50,16 @@ body {
     background-color: rgb(131, 44, 44);
     margin: 1% auto;
     padding: 1%;
+    width: 75%;
+    text-align: center;
 }
 
 .bio {
     background-color: rgb(187, 99, 17);
     margin: 1% auto;
     padding: 1%;
+    width: 75%;
+    text-align: center;
 }
 
 .item.b {
@@ -72,11 +76,12 @@ body {
 }
 
 .project-name {
-    margin: 1% auto;
+    margin: 2% auto;
     padding: 0 1%;
     background-color: chocolate;
     font-size: 140%;
     text-align: center;
+    width: 40%
 }
 
 .img {
@@ -84,16 +89,16 @@ body {
 }
 
 .img img {
-    width: 300px;
+    width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
 .description {
     margin: 1% auto;
-    padding: auto;
+    padding: 0 1%;
     background-color: rgb(16, 53, 40);
-    width: 50%;
+    width: 35%;
     text-align: center;
 }
 
