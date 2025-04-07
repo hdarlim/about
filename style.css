@@ -1,18 +1,106 @@
 :root {
     --white: #e0e0e0;
+    --black: #0a0a0a;
 }
-html {
-    font-family: 'VT323', monospace;
-    background-color: rgb(10, 10, 10);
-    color: var(--white);
+
+* {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    text-transform: lowercase;
 }
-main {
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 22px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main {
+    min-height: 95%;
+    background-color: rgb(58, 58, 22);
+    margin: 0;
     display: flex;
-    flex-direction: column;
+    /* 
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    flex-flow is a shorthand for flex-direction and flex-wrap */
+    flex-flow: row nowrap;
+    justify-content: space-evenly; /*x*/
+    align-items: center; /*y*/
 }
-a:visited {
-    color:var(--white);
+
+.item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 0 1%;
+}
+
+.item.a {
+    background-color: blue;
+    padding: 1% 1% 1% 20%;
+    width: 30%;
+}
+
+.name {
+    font-size: 160%;
+    background-color: rgb(131, 44, 44);
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.bio {
+    background-color: rgb(187, 99, 17);
+    margin: 1% auto;
+    padding: 1%;
+}
+
+.item.b {
+    border-left: 3px solid var(--white);
+    min-height: 50vh;
+    margin: 0 1.5%;
+    padding-right: 1%;
+}
+
+.item.c {
+    background-color: green;
+    margin: 5% 0;
+    width: 100%;
+}
+
+.project-name {
+    margin: 1% auto;
+    padding: 0 1%;
+    background-color: chocolate;
+    font-size: 140%;
+    text-align: center;
+}
+
+.img {
+    width: auto;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.description {
+    margin: 1% auto;
+    padding: auto;
+    background-color: rgb(16, 53, 40);
+    width: 50%;
+    text-align: center;
+}
+
+.item.d {
+    border: 2px solid red;
+    margin: 1%;
+    padding: 1%
 }
