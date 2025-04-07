@@ -102,3 +102,26 @@ body {
     margin: 1%;
     padding: 1%
 }
+
+@media screen and (max-width: 1079px), screen and (max-height: 719px) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: var(--black) !important;
+      overflow: hidden;
+    }
+  
+    body::before {
+      content: "Mobile version not ready yet, please be patient";
+      color: var(--white);
+      font-size: 24px;
+      padding: 20px;
+    }
+  
+    /* Hide all other elements */
+    body * {
+      display: none !important;
+    }
+  }
