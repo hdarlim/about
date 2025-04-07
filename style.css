@@ -9,26 +9,6 @@
     text-transform: lowercase;
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-      --white: #0a0a0a;
-      --black: #e0e0e0;
-    }
-
-    .item.b {
-      border-left: 3px solid var(--white); /* Dark line in light mode */
-    }
-  
-    @media screen and (max-width: 1079px), screen and (max-height: 719px) {
-      body {
-        background-color: var(--black) !important;
-      }
-      body::before {
-        color: var(--white);
-      }
-    }
-  }
-
 body {
     font-family: 'VT323', monospace;
     background-color: var(--black);
