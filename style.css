@@ -15,14 +15,6 @@
       --black: #e0e0e0;
     }
 
-    a {
-      color: #0a0a0a;
-    }
-    a:hover {
-      background-color: #0a0a0a;
-      color: #e0e0e0;
-    }
-  
     .item.b {
       border-left: 3px solid var(--white); /* Dark line in light mode */
     }
